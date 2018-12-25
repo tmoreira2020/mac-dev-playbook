@@ -19,12 +19,21 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - ant
+  - awscli
+  - coreutils
   - git
   - git-extras
   - gnupg
+  - go
+  - httpie
+  - inetutils
   - jmeter
+  - kubectl
+  - mariadb
   - maven
-  - openssl
+  - md5sha1sum
+  - p7zip
+  - po
   - svn
   - tree
   - unrar
@@ -34,20 +43,40 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - nrobinson2000/po
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
   - docker
+  - cyberduck
   - dropbox
   - firefox
+  - gimp
   - google-chrome
+  - gulp
   - eclipse-jee
+  - eclipse-paho
+  - iterm2
+  - google-backup-and-sync
+  - java8
+  - java9
+  - java10
+  - mounty
+  - minikube
+  - particle-dev
+  - postman
+  - rescuetime
+  - skype
   - slack
+  - spotify
   - sourcetree
   - vagrant
   - virtualbox
   - visual-studio-code
+  - visualvm
+  - vlc
+  - zoomus
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
