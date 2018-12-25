@@ -1,0 +1,4 @@
+---
+- name: Setup Eclipse.
+  shell: "sed  -e 's/-Xms256/-Xms4096/g' -e 's/-Xmx1024/-Xms4096/g' '/Applications/Eclipse Java.app/Contents/Eclipse/eclipse.ini'"
+  changed_when: false
