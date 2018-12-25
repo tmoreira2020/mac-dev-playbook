@@ -37,6 +37,9 @@
     - include_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
 
+    - include_tasks: tasks/vagrant.yml
+      tags: ['vagrant']
+
     - name: Run configured post-provision ansible task files.
       include_tasks: "{{ outer_item }}"
       loop_control:

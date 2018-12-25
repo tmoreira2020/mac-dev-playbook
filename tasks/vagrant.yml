@@ -1,0 +1,4 @@
+---
+- name: Run final setup.
+  shell: "vagrant plugin install vagrant-cachier vagrant-vbguest vagrant-scaleway"
+  changed_when: false
