@@ -55,8 +55,7 @@ homebrew_cask_apps:
   - gimp
   - google-chrome
   - gulp
-  - eclipse-jee
-  - eclipse-paho
+  - eclipse-java
   - iterm2
   - google-backup-and-sync
   - java8
